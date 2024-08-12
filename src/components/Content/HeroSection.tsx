@@ -13,14 +13,14 @@ export const HeroSection = () => {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto text-center">
             <h1 className="px-6 text-lg text-gray-600 text-poppins">
-              Savvy Candidate Outreach Tool, Designed for Recruiters.{" "}
+              Setting New Standards in Real Estate Marketing.{" "}
             </h1>
             <h2 className="mt-5 text-6xl leading-2 text-gray-900 sm:leading-tight md:text-6xl lg:text-6xl  font-poppins font-bold">
-              Effortlessly Streamline{" "}
+            Eliminating The Hassles and Inefficiencies Of {" "}
               <span className="bg-gradient-to-r from-success via-green-500 to-green-600 inline-block text-transparent bg-clip-text">
-               Your Recruitment
-              </span>{" "}
-              Get more clients.
+              Traditional 
+              </span>{" "} 
+              Real Estate Transactions 
             </h2>
 
             <div className="px-8 sm:items-center sm:justify-center sm:px-0 sm:space-x-5 sm:flex mt-9">
@@ -30,7 +30,7 @@ export const HeroSection = () => {
                 className="px-5 py-2 text-black bg-success rounded-md"
                 role="button"
               >
-                Get more users
+               Join Waiting list
               </a>
 
               <a
@@ -54,54 +54,8 @@ export const HeroSection = () => {
                     strokeLinejoin="round"
                   />
                 </svg>
-                Watch free demo
+                Learn more
               </a>
-            </div>
-
-            <div className="mt-8">
-              <p className="mb-4 text-center text-base font-medium text-black">
-                Powered By
-              </p>
-              <div
-                className="wow fadeInUp flex items-center justify-center gap-4 text-center"
-                data-wow-delay=".3s"
-              >
-                <a
-                  href="#"
-                  className="text-black duration-300 ease-in-out "
-                  target="_blank"
-                >
-                  <GitHubLogo fill="none" height={26} width={30} />
-                </a>
-                <a
-                  href="#"
-                  className="text-black duration-300 ease-in-out "
-                  target="_blank"
-                >
-                  <LinearLogo fill="#5E6AD2" height={32} width={32} />
-                </a>
-                <a
-                  href="#"
-                  className="text-black duration-300 ease-in-out "
-                  target="_blank"
-                >
-                  <FigmaLogo fill="none" height={32} width={32} />
-                </a>
-                <a
-                  href="#"
-                  className="text-black duration-300 ease-in-out "
-                  target="_blank"
-                >
-                  <MainChimpLogo fill="none" height={32} width={32} />
-                </a>
-                <a
-                  href="#"
-                  className="text-black duration-300 ease-in-out "
-                  target="_blank"
-                >
-                  <NotionLogo fill="none" height={32} width={32} />
-                </a>
-              </div>
             </div>
           </div>
         </div>
