@@ -6,7 +6,11 @@ export const HeroSection = () => {
           <h1 className="px-6 text-lg text-gray-600 font-poppins">
             Setting New Standards in Real Estate Marketing.
           </h1>
-          <h2 className="mt-5 text-4xl font-bold leading-loose text-gray-900 sm:text-5xl md:text-6xl lg:text-6xl font-poppins">
+          <h2 className="
+              mt-5 text-4xl font-bold leading-snug 
+              text-gray-900 sm:text-5xl sm:leading-snug 
+              md:text-6xl md:leading-snug 
+              lg:text-6xl lg:leading-snug font-poppins">
             Eliminating The Hassles and Inefficiencies{" "}
             <span className="bg-gradient-to-r from-primary via-primary-500 to-primary-600 inline-block text-transparent bg-clip-text">
               of Traditional
