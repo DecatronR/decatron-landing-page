@@ -23,7 +23,7 @@ export const Pricing = () => {
           <div className="">
             <div className="overflow-hidden bg-white rounded-md">
               <div className="p-10">
-                <p className="mt-4 text-6xl font-bold text-black">$200</p>
+                <p className="mt-4 text-5xl font-bold text-black">Decatron 360</p>
 
                 <ul className="flex flex-col mt-8 space-y-4">
                   <li className="inline-flex items-center space-x-2">
@@ -41,7 +41,7 @@ export const Pricing = () => {
                     </svg>
                     <span className="text-base font-medium text-gray-900">
                       {" "}
-                      Advanced features for complex recruitment needs{" "}
+                      No more lengthy chains of agents between buyers and sellers{" "}
                     </span>
                   </li>
 
@@ -60,7 +60,7 @@ export const Pricing = () => {
                     </svg>
                     <span className="text-base font-medium text-gray-900">
                       {" "}
-                      Scalable options to accommodate increasing hiring demands{" "}
+                      No more inflated prices and wasted time{" "}
                     </span>
                   </li>
 
@@ -79,7 +79,7 @@ export const Pricing = () => {
                     </svg>
                     <span className="text-base font-medium text-gray-900">
                       {" "}
-                      Enhanced features for efficient candidate management{" "}
+                      No more misleading property advertisements{" "}
                     </span>
                   </li>
 
@@ -98,8 +98,26 @@ export const Pricing = () => {
                     </svg>
                     <span className="text-base font-medium text-gray-900">
                       {" "}
-                      Dedicated support and customization options for seamless
-                      integration{" "}
+                      No more unqualified buyers and wasted agent time{" "}
+                    </span>
+                  </li>
+
+                  <li className="inline-flex items-center space-x-2">
+                    <svg
+                      className="flex-shrink-0 w-5 h-5 text-green-500"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                    <span className="text-base font-medium text-gray-900">
+                      {" "}
+                      No more outrageous agent fees without quality service{" "}
                     </span>
                   </li>
                 </ul>
@@ -110,29 +128,8 @@ export const Pricing = () => {
                   className="inline-flex items-center justify-center w-full px-8 py-4 mt-10 font-semibold text-white bg-primary rounded-md"
                   role="button"
                 >
-                  Get Full Access
+                  Try It Out
                 </a>
-
-                <div className="flex items-center mt-5">
-                  <svg
-                    className="flex-shrink-0 w-5 h-5 text-gray-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                    />
-                  </svg>
-                  <span className="ml-2 text-sm text-gray-500">
-                    {" "}
-                    14 Days Moneyback Guarantee{" "}
-                  </span>
-                </div>
               </div>
             </div>
           </div>
