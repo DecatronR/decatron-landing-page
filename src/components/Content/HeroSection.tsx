@@ -1,6 +1,6 @@
 export const HeroSection = () => {
   return (
-    <section className="pt-12 pb-24 bg-gray-50 sm:pt-16">
+    <section id="home" className="pt-12 pb-24 bg-gray-50 sm:pt-16">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="px-6 text-lg text-gray-600 font-poppins">

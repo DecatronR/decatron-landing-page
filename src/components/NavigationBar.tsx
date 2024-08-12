@@ -4,12 +4,24 @@ import Image from "next/image";
 export const NavigationBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const smoothScrollTo = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   const handleJoinCommunity = () => {
     window.open('https://discord.gg/gjZhR2MQ', '_blank', 'noopener,noreferrer');
+  };
+
+  const handleLinkClick = (event: { preventDefault: () => void; }, id: any) => {
+    event.preventDefault();
+    smoothScrollTo(id);
+    setIsMenuOpen(false);
   };
 
   return (
@@ -84,40 +96,44 @@ export const NavigationBar = () => {
           id="navbar-cta"
         >
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-white md:flex-row md:space-x-8 md:mt-0 md:border-0">
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 md:p-0 text-black hover:text-primary dark:hover:text-primary"
-                aria-current="page"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 md:p-0 text-black hover:text-primary dark:hover:text-primary"
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 md:p-0 text-black hover:text-primary dark:hover:text-primary"
-              >
-                Products
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 md:p-0 text-black hover:text-primary dark:hover:text-primary"
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
+          <li>
+            <a
+              href="#home"
+              onClick={(e) => handleLinkClick(e, 'home')}
+              className="block py-2 px-3 md:p-0 text-black hover:text-primary dark:hover:text-primary"
+              aria-current="page"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="#about"
+              onClick={(e) => handleLinkClick(e, 'about')}
+              className="block py-2 px-3 md:p-0 text-black hover:text-primary dark:hover:text-primary"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href="#products"
+              onClick={(e) => handleLinkClick(e, 'products')}
+              className="block py-2 px-3 md:p-0 text-black hover:text-primary dark:hover:text-primary"
+            >
+              Products
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              onClick={(e) => handleLinkClick(e, 'contact')}
+              className="block py-2 px-3 md:p-0 text-black hover:text-primary dark:hover:text-primary"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
         </div>
       </div>
     </nav>

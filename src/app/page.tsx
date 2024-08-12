@@ -1,6 +1,6 @@
 import { HeroSection } from "@/components/Content/HeroSection";
 import { ContactUs } from "@/components/Content/ContactUs";
-import { Features } from "@/components/Content/Features";
+import { Products } from "@/components/Content/Products";
 import { HowItWork } from "@/components/Content/HowItWork";
 import { ProductShowCase } from "@/components/Content/ProductShowCase";
 import type { Metadata } from "next";
@@ -15,7 +15,7 @@ export default function Home() {
     <main className="">
       <HeroSection />
       {/* <ClientsSection /> */}
-      <Features />
+      <Products />
       <HowItWork />
       <ProductShowCase />
       {/* <Testimonials /> */}
