@@ -186,6 +186,12 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-slick@^0.23.13":
+  version "0.23.13"
+  resolved "https://registry.yarnpkg.com/@types/react-slick/-/react-slick-0.23.13.tgz#037434e73a58063047b121e08565f7185d811f36"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^18":
   version "18.3.3"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.3.tgz#9679020895318b0915d7a3ab004d92d33375c45f"
@@ -2206,6 +2212,10 @@ supports-color@^7.1.0:
 supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
+
+swiper@^11.1.9:
+  version "11.1.9"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-11.1.9.tgz#55505c7cf4723b678df8220fc06152b793585dbc"
 
 tailwindcss@*, tailwindcss@^3.4.1:
   version "3.4.9"

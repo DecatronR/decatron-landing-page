@@ -22,7 +22,7 @@ export const Pricing = () => {
           <div className="">
             <div className="overflow-hidden bg-white rounded-md">
               <div className="p-10">
-                <p className="mt-4 text-5xl font-bold text-black">Decatron 360</p>
+                {/* <p className="mt-4 text-5xl font-bold text-black">Decatron 360</p> */}
 
                 <ul className="flex flex-col mt-8 space-y-4">
                   <li className="inline-flex items-center space-x-2">
