@@ -4,12 +4,10 @@ export const Features = () => {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className=" font-poppins text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj">
-            Revolutionize Your Hiring Process with Our Advanced Recruitment
-            Software
+           Our Products
           </h2>
           <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8 font-pj">
-            Streamline Talent Acquisition, Simplify Workflow, and Find the
-            Perfect Fit Faster Than Ever Before
+            Our Products Aims to Address The Most Pressing Needs Through Innovation and Education
           </p>
         </div>
 
@@ -20,10 +18,6 @@ export const Features = () => {
               width={100} className="mx-auto"
               alt="Decatron Realtors"
              />
-
-            {/* <h3 className="mt-12 text-xl font-bold text-gray-900 font-pj">
-              Decatron Realtors
-            </h3> */}
             <p className="mt-5 text-base text-gray-600 font-pj">
               Should you want to sell a property, or have your property listed on our website
             </p>
@@ -34,10 +28,7 @@ export const Features = () => {
               src="/images/logos/dec360.png" 
               width={100} className="mx-auto" 
               alt="Decatron 360"
-             />
-            {/* <h3 className="mt-12 text-xl font-bold text-gray-900 font-pj">
-              Efficient Applicant Tracking System (ATS)
-            </h3> */}
+            />
             <p className="mt-5 text-base text-gray-600 font-pj">
               Streamline the recruitment process with a comprehensive ATS that
               allows you to manage applicants, track their progress, and

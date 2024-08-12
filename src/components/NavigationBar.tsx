@@ -14,37 +14,18 @@ export const NavigationBar = () => {
           href="https://flowbite.com/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <svg
-            width={50}
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            stroke="#ffffff"
-          >
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g
-              id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></g>
-            <g id="SVGRepo_iconCarrier">
-              {" "}
-              <path
-                d="M13 14L17 9L22 18H2.84444C2.46441 18 2.2233 17.5928 2.40603 17.2596L10.0509 3.31896C10.2429 2.96885 10.7476 2.97394 10.9325 3.32786L15.122 11.3476"
-                stroke="#ffffff"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>{" "}
-            </g>
-          </svg>
+        <img 
+          src="/images/logos/dec.png" 
+          width={100} className="mx-auto" 
+          alt="Decatron 360"
+        />
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
-            className="text-black text-sm rounded-lg px-5 py-2 bg-[#18c964]"
+            className="text-white text-sm rounded-lg px-5 py-2 bg-primary"
           >
-            Get started
+            Join Community
           </button>
           <button
             type="button"
@@ -80,7 +61,7 @@ export const NavigationBar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 md:p-0 text-white  hover:text-success"
+                className="block py-2 px-3 md:p-0 text-white  hover:text-primary"
                 aria-current="page"
               >
                 Home
@@ -89,7 +70,7 @@ export const NavigationBar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 md:p-0 text-white  hover:text-success"
+                className="block py-2 px-3 md:p-0 text-white  hover:text-primary"
               >
                 About
               </a>
@@ -97,7 +78,7 @@ export const NavigationBar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 md:p-0 text-white  hover:text-success"
+                className="block py-2 px-3 md:p-0 text-white  hover:text-primary"
               >
                 Products
               </a>
@@ -105,7 +86,7 @@ export const NavigationBar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 md:p-0 text-white  hover:text-success"
+                className="block py-2 px-3 md:p-0 text-white  hover:text-primary"
               >
                 Contact
               </a>

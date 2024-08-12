@@ -108,7 +108,7 @@ export const ContactUs = () => {
                   <div className="sm:col-span-2">
                     <button
                       type="submit"
-                      className="inline-flex items-center justify-center w-full px-4 py-4 mt-2 text-base font-semibold text-black transition-all duration-200 bg-success rounded-md"
+                      className="inline-flex items-center justify-center w-full px-4 py-4 mt-2 text-base font-semibold text-white transition-all duration-200 bg-primary rounded-md"
                     >
                       Send
                     </button>

@@ -17,7 +17,7 @@ export const HeroSection = () => {
             </h1>
             <h2 className="mt-5 text-6xl leading-2 text-gray-900 sm:leading-tight md:text-6xl lg:text-6xl  font-poppins font-bold">
             Eliminating The Hassles and Inefficiencies Of {" "}
-              <span className="bg-gradient-to-r from-success via-green-500 to-green-600 inline-block text-transparent bg-clip-text">
+              <span className="bg-gradient-to-r from-primary via-primary-500 to-primary-600 inline-block text-transparent bg-clip-text">
               Traditional 
               </span>{" "} 
               Real Estate Transactions 
@@ -27,7 +27,7 @@ export const HeroSection = () => {
               <a
                 href="#"
                 title=""
-                className="px-5 py-2 text-black bg-success rounded-md"
+                className="px-5 py-2 text-white bg-primary rounded-md"
                 role="button"
               >
                Join Waiting list

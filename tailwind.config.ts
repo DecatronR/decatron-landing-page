@@ -21,6 +21,7 @@ const config: Config = {
       },
       colors: {
         success: "#18c964",
+        primary: "#5a47fb",
       },
     },
   },

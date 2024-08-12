@@ -107,7 +107,7 @@ export const Pricing = () => {
                 <a
                   href="#"
                   title=""
-                  className="inline-flex items-center justify-center w-full px-8 py-4 mt-10 font-semibold text-black bg-success rounded-md"
+                  className="inline-flex items-center justify-center w-full px-8 py-4 mt-10 font-semibold text-white bg-primary rounded-md"
                   role="button"
                 >
                   Get Full Access
