@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Features = () => {
   return (
     <section className="py-12 bg-white sm:py-16 lg:py-20 font-poppins">
@@ -13,9 +15,11 @@ export const Features = () => {
 
         <div className="grid grid-cols-1 mt-10 text-center sm:mt-16 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-3 md:gap-0 xl:mt-24">
           <div className="md:p-8 lg:p-14">
-            <img 
+            <Image 
               src="/images/logos/decRel.png" 
-              width={100} className="mx-auto"
+              className="mx-auto"
+              width={100} 
+              height={100}
               alt="Decatron Realtors"
              />
             <p className="mt-5 text-base text-gray-600 font-pj">
@@ -24,9 +28,11 @@ export const Features = () => {
           </div>
 
           <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200">
-          <img 
+            <Image
               src="/images/logos/dec360.png" 
-              width={100} className="mx-auto" 
+              width={100}
+              height={100}
+              className="mx-auto" 
               alt="Decatron 360"
             />
             <p className="mt-5 text-base text-gray-600 font-pj">
@@ -37,14 +43,13 @@ export const Features = () => {
           </div>
 
           <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200">
-          <img 
+          <Image
               src="/images/logos/decSch.png" 
-              width={100} className="mx-auto" 
+              width={100}
+              height={100}
+              className="mx-auto" 
               alt="Decatron School"
              />
-            {/* <h3 className="mt-12 text-xl font-bold text-gray-900 font-pj">
-              Customizable Assessment Tools
-            </h3> */}
             <p className="mt-5 text-base text-gray-600 font-pj">
               Create and administer customized assessments to evaluate
               candidates skills, competencies, and fit for the role, ensuring

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 
 export const NavigationBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,9 +15,11 @@ export const NavigationBar = () => {
           href="https://flowbite.com/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-        <img 
+        <Image
           src="/images/logos/dec.png" 
-          width={100} className="mx-auto" 
+          width={100}
+          height={100}
+          className="mx-auto" 
           alt="Decatron 360"
         />
         </a>

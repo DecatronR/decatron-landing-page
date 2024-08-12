@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCheckCircle } from "react-icons/fa"; // Import an icon for custom bullet points
+import { FaCheckCircle } from "react-icons/fa";
 
 export const HowItWork = () => {
   return (
@@ -29,7 +29,7 @@ export const HowItWork = () => {
               <ul className="mt-4 text-left space-y-2 text-black">
                 <li className="flex items-start">
                   <FaCheckCircle className="text-green-500 mr-2 mt-1" />
-                  <span>Maximize your property's value with stress-free inspections</span>
+                  <span>Maximize your property&apos;s value with stress-free inspections</span>
                 </li>
                 <li className="flex items-start">
                   <FaCheckCircle className="text-green-500 mr-2 mt-1" />
