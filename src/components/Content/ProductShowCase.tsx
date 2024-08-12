@@ -2,7 +2,7 @@
 import { useRef } from 'react';
 import styles from "../styles/pricing.module.css"
 
-export const Pricing = () => {
+export const ProductShowCase = () => {
   const scrollContainerRef = useRef(null);
 
   const handleMouseEnter = () => {
@@ -34,7 +34,8 @@ export const Pricing = () => {
 
           {/* Content Section */}
           <div className="w-full md:w-1/2 lg:w-3/5 mt-7">
-            <h6 className="font-poppins text-3xs font-bold leading-tight text-black sm:text-4xl lg:leading-tight lg:text-5xs ml-11">Explore</h6>
+            <h6 className="font-poppins text-3xs font-bold leading-tight text-black sm:text-4xl lg:leading-tight lg:text-5xs ml-11">
+              Explore</h6>
             <h2 className="font-poppins text-3xl font-bold leading-tight text-black sm:text-4xl lg:leading-tight lg:text-5xl ml-11">
               Decatron 360
             </h2>
