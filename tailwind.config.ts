@@ -16,6 +16,8 @@ const config: Config = {
       },
       fontFamily: {
         poppins: ['"Poppins"', ...defaultTheme.fontFamily.sans],
+        nasalization: ['"Nasalization"', ...defaultTheme.fontFamily.sans],
+        raleway: ['"Raleway"', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         success: "#18c964",

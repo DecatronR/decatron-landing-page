@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main className="">
       <HeroSection />
-      <ClientsSection />
+      {/* <ClientsSection /> */}
       <Features />
       <HowItWork />
       <Pricing />
