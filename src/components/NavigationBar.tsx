@@ -91,7 +91,7 @@ export const NavigationBar = () => {
                 href="#"
                 className="block py-2 px-3 md:p-0 text-white  hover:text-success"
               >
-                Services
+                About
               </a>
             </li>
             <li>
@@ -99,7 +99,7 @@ export const NavigationBar = () => {
                 href="#"
                 className="block py-2 px-3 md:p-0 text-white  hover:text-success"
               >
-                Pricing
+                Products
               </a>
             </li>
             <li>
