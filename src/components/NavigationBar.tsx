@@ -8,6 +8,10 @@ export const NavigationBar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleJoinCommunity = () => {
+    window.open('https://discord.gg/gjZhR2MQ', '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <nav className="border-gray-200 bg-white">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -27,6 +31,7 @@ export const NavigationBar = () => {
           <button
             type="button"
             className="flex items-center text-white text-sm rounded-lg px-5 py-2 bg-primary hover:bg-primary-dark transition-colors"
+            onClick={handleJoinCommunity}
           >
             <span className="hidden sm:inline-block mr-2">Join Community</span>
             <svg 

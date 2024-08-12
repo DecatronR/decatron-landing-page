@@ -5,13 +5,15 @@ export const Footer = () => {
     <section className="py-10 bg-gray-50 sm:pt-16 lg:pt-24">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex flex-col items-center justify-center space-y-6 md:space-y-8 lg:space-y-10">
-          <div className="flex justify-center space-x-3 mt-9">
+          <div className="flex justify-center space-x-3 mt-3">
 
-            <ul className="flex items-center space-x-3 mt-9">
+            <ul className="flex items-center space-x-3 mt-5">
               <li>
                 <a
-                  href="#"
+                  href="https://x.com/DecatronR"
                   title=""
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center justify-center text-white transition-all duration-200 bg-black rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >
                   <svg
@@ -27,8 +29,10 @@ export const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/decatron_realtors/"
                   title=""
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center justify-center text-white transition-all duration-200 bg-black rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >
                   <svg
@@ -44,12 +48,12 @@ export const Footer = () => {
                 </a>
               </li>
 
-              
-
               <li>
                 <a
-                  href="#"
+                  href="https://discord.gg/gjZhR2MQ"
                   title=""
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center justify-center text-white transition-all duration-200 bg-black rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >
                 <svg 
@@ -78,7 +82,7 @@ export const Footer = () => {
 
         </div>
 
-        <hr className="mt-16 mb-10 border-gray-200" />
+        <hr className="mt-5 mb-10 border-gray-200" />
 
         <p className="text-sm text-center text-gray-600">
           © 2024 Decatron. All rights reserved.
