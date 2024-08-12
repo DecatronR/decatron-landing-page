@@ -6,12 +6,12 @@ export const HeroSection = () => {
           <h1 className="px-6 text-lg text-gray-600 font-poppins">
             Setting New Standards in Real Estate Marketing.
           </h1>
-          <h2 className="mt-5 text-4xl font-bold leading-snug text-gray-900 sm:text-5xl md:text-6xl lg:text-7xl font-poppins">
-            Eliminating The Hassles and Inefficiencies Of{" "}
+          <h2 className="mt-5 text-4xl font-bold leading-loose text-gray-900 sm:text-5xl md:text-6xl lg:text-6xl font-poppins">
+            Eliminating The Hassles and Inefficiencies{" "}
             <span className="bg-gradient-to-r from-primary via-primary-500 to-primary-600 inline-block text-transparent bg-clip-text">
-              Traditional
+              of Traditional
             </span>{" "}
-            Real Estate Transactions
+            <br /> Real Estate Transactions
           </h2>
 
           <div className="mt-9 flex flex-col items-center justify-center space-y-5 sm:flex-row sm:space-y-0 sm:space-x-5">
