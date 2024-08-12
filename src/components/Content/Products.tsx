@@ -29,7 +29,7 @@ export const Products = () => {
               reprehenderit quam. Beatae non quasi enim minus accusantium, odio
               voluptas illo at excepturi!
             </p>
-            <button className="mt-5 px-4 py-2 text-white bg-primary rounded hover:bg-blue-700">
+            <button className="mt-5 px-4 py-2 text-white bg-primary rounded hover:bg-[#ffb549]">
               Learn More
             </button>
           </div>
@@ -48,7 +48,7 @@ export const Products = () => {
               reprehenderit quam. Beatae non quasi enim minus accusantium, odio
               voluptas illo at excepturi!
             </p>
-            <button className="mt-5 px-4 py-2 text-white bg-primary rounded hover:bg-blue-700">
+            <button className="mt-5 px-4 py-2 text-white bg-primary rounded hover:bg-[#fb4747]">
               Learn More
             </button>
           </div>
@@ -67,7 +67,7 @@ export const Products = () => {
               reprehenderit quam. Beatae non quasi enim minus accusantium, odio
               voluptas illo at excepturi!
             </p>
-            <button className="mt-5 px-4 py-2 text-white bg-primary rounded hover:bg-blue-700">
+            <button className="mt-5 px-4 py-2 text-white bg-primary rounded hover:bg-[#47fb9b]">
               Learn More
             </button>
           </div>

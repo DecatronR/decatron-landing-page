@@ -42,7 +42,7 @@ export const NavigationBar = () => {
         <div className="flex md:order-2 space-x-3 rtl:space-x-reverse">
           <button
             type="button"
-            className="flex items-center text-white text-sm rounded-lg px-5 py-2 bg-primary hover:bg-primary-dark transition-colors"
+            className="flex items-center text-white text-sm rounded-lg px-5 py-2 bg-primary hover:bg-black transition-colors"
             onClick={handleJoinCommunity}
           >
             <span className="hidden sm:inline-block mr-2">Join Community</span>

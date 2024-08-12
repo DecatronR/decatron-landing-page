@@ -72,7 +72,7 @@ export const ProductShowCase = () => {
 
                   <a
                     href="#"
-                    className="inline-flex items-center justify-center w-full px-8 py-4 mt-10 font-semibold text-white bg-primary rounded-md"
+                    className="inline-flex items-center justify-center w-full px-8 py-4 mt-10 font-semibold text-white bg-primary rounded-md hover:bg-[#fb4747]"
                   >
                     Try It Out
                   </a>
