@@ -16,7 +16,7 @@ export const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="flex items-center justify-center text-white transition-all duration-200 bg-black rounded-full w-7 h-7 hover:bg-success focus:bg-success"
+                  className="flex items-center justify-center text-white transition-all duration-200 bg-black rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >
                   <svg
                     className="w-4 h-4"
@@ -33,7 +33,7 @@ export const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="flex items-center justify-center text-white transition-all duration-200 bg-black rounded-full w-7 h-7 hover:bg-success focus:bg-success"
+                  className="flex items-center justify-center text-white transition-all duration-200 bg-black rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >
                   <svg
                     className="w-4 h-4"
@@ -50,7 +50,7 @@ export const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="flex items-center justify-center text-white transition-all duration-200 bg-black rounded-full w-7 h-7 hover:bg-success focus:bg-success"
+                  className="flex items-center justify-center text-white transition-all duration-200 bg-black rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >
                   <svg
                     className="w-4 h-4"
@@ -69,7 +69,7 @@ export const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="flex items-center justify-center text-white transition-all duration-200 bg-black rounded-full w-7 h-7 hover:bg-success focus:bg-success"
+                  className="flex items-center justify-center text-white transition-all duration-200 bg-black rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >
                   <svg
                     className="w-4 h-4"
@@ -164,7 +164,7 @@ export const Footer = () => {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Delivery Details{" "}
+                  FAQs{" "}
                 </a>
               </li>
 
@@ -222,7 +222,7 @@ export const Footer = () => {
         <hr className="mt-16 mb-10 border-gray-200" />
 
         <p className="text-sm text-center text-gray-600">
-          © Copyright 2021, All Rights Reserved
+          © 2024 Decatron. All rights reserved.
         </p>
       </div>
     </section>

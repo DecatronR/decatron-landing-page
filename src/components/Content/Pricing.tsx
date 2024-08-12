@@ -5,16 +5,15 @@ export const Pricing = () => {
         <div className="grid grid-cols-1 md:items-stretch md:grid-cols-2 gap-x-12 lg:gap-x-20 gap-y-10">
           <div className="flex flex-col justify-between lg:py-5">
             <h2 className="font-poppins text-3xl font-bold leading-tight text-white sm:text-4xl lg:leading-tight lg:text-5xl">
-              Discover Flexible Pricing Plans Tailored to Suit Your Unique
-              Hiring Requirements
+              The Easy Way To Buy and Sell Real Estate
             </h2>
             <div className="">
               <blockquote className="mt-2">
                 <p className="text-lg leading-relaxed text-white">
-                  Choose the perfect plan for your business, whether you&apos;re
-                  a small startup looking to scale or an enterprise-level
-                  organization with complex hiring requirements. Ensuring you
-                  get the most value out of our recruitment software.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Omnis assumenda culpa itaque? Numquam hic consequuntur excepturi
+                  dolore obcaecati fuga amet consectetur saepe.
+                  Modi, nam quod? Non reprehenderit perspiciatis aperiam vel?
                 </p>
               </blockquote>
             </div>
