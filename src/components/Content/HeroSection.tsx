@@ -18,7 +18,7 @@ export const HeroSection = () => {
             <br /> and Increase Accountability
           </h2>
 
-          <div className="mt-9 flex flex-col items-center justify-center space-y-5 sm:flex-row sm:space-y-0 sm:space-x-5">
+          {/* <div className="mt-9 flex flex-col items-center justify-center space-y-5 sm:flex-row sm:space-y-0 sm:space-x-5">
             <a
               href="#"
               title="Join Waiting List"
@@ -51,7 +51,7 @@ export const HeroSection = () => {
               </svg>
               Learn more
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
