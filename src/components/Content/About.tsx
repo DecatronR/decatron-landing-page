@@ -20,7 +20,7 @@ export const About = () => {
             <p className="mt-4 text-base text-gray-600 font-poppins">
                 Unlike other platforms that only focus on property listings,
                 we are interested in entire inspection process,
-                ensuring that buyers are satisfied, and agents get paid.
+                ensuring that buyers are satisfied, and agents get paid for their services.
             </p>
           </div>
 

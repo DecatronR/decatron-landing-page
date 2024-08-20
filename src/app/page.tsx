@@ -2,7 +2,7 @@ import { HeroSection } from "@/components/Content/HeroSection";
 import { ContactUs } from "@/components/Content/ContactUs";
 import { Products } from "@/components/Content/Products";
 import { HowItWork } from "@/components/Content/HowItWork";
-import { ProductShowCase } from "@/components/Content/ProductShowCase";
+import { CallToAction } from "@/components/Content/CallToAction";
 import { About } from "@/components/Content/About";
 import type { Metadata } from "next";
 
@@ -19,7 +19,7 @@ export default function Home() {
       {/* <ClientsSection /> */}
       {/* <Products /> */}
       <HowItWork />
-      <ProductShowCase />
+      <CallToAction />
       {/* <Testimonials /> */}
       <ContactUs />
     </main>

@@ -1,7 +1,7 @@
 "use client"
-export const ProductShowCase = () => {
+export const CallToAction = () => {
   return (
-    <section className="py-10 bg-primary sm:py-16 lg:py-20">
+    <section id="cta" className="py-10 bg-primary sm:py-16 lg:py-20">
       <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:items-stretch md:grid-cols-2 gap-x-12 lg:gap-x-20 gap-y-10">
           <div className="flex flex-col justify-center lg:py-5 animate-fadeIn">

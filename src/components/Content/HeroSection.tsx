@@ -11,7 +11,7 @@ export const HeroSection = () => {
               text-gray-900 sm:text-5xl sm:leading-snug 
               md:text-6xl md:leading-snug 
               lg:text-6xl lg:leading-snug font-poppins">
-            Streamline The Inspection Process, Reduce{" "}
+            Streamline Real Estate Inspections, Reduce{" "}
             <span className="bg-gradient-to-r from-primary via-primary-500 to-primary-600 inline-block text-transparent bg-clip-text">
               Friction,
             </span>{" "}

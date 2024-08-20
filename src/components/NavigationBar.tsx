@@ -14,7 +14,7 @@ export const NavigationBar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handleJoinCommunity = () => {
+  const handleJoinWaitlist = () => {
     window.open('https://discord.gg/gjZhR2MQ', '_blank', 'noopener,noreferrer');
   };
 
@@ -43,7 +43,7 @@ export const NavigationBar = () => {
           <button
             type="button"
             className="flex items-center text-white text-sm rounded-lg px-5 py-2 bg-primary hover:bg-black transition-colors"
-            onClick={handleJoinCommunity}
+            onClick={handleJoinWaitlist}
           >
             <span className="hidden sm:inline-block mr-2">Join Waitlist</span>
             
@@ -101,10 +101,10 @@ export const NavigationBar = () => {
             <li>
               <a
                 href="#products"
-                onClick={(e) => handleLinkClick(e, "products")}
+                onClick={(e) => handleLinkClick(e, "cta")}
                 className="block py-2 px-3 md:p-0 text-black hover:text-primary dark:hover:text-primary"
               >
-                Products
+                Why choose us
               </a>
             </li>
             <li>

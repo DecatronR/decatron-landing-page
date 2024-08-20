@@ -48,7 +48,7 @@ export const Footer = () => {
                 </a>
               </li>
 
-              <li>
+              {/* <li>
                 <a
                   href="https://discord.gg/gjZhR2MQ"
                   title=""
@@ -75,7 +75,7 @@ export const Footer = () => {
                   />
                 </svg>
                 </a>
-              </li>
+              </li> */}
 
             </ul>
           </div>
