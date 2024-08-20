@@ -1,88 +1,137 @@
-"use client";
-import { useRef } from 'react';
-import styles from "../styles/pricing.module.css";
-
+"use client"
 export const ProductShowCase = () => {
-  const scrollContainerRef = useRef<HTMLDivElement | null>(null);
-
-  const handleMouseEnter = () => {
-    if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-      });
-    }
-  };
-
   return (
-    <section className="py-10 bg-white sm:py-16 lg:py-20">
+    <section className="py-10 bg-primary sm:py-16 lg:py-20">
       <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row items-center gap-x-12 lg:gap-x-20">
-          {/* Product Mockup Image */}
-          <div 
-            className={`flex-shrink-0 w-full md:w-1/2 lg:w-2/5 relative h-[500px] ${styles.scrollHover}`}
-            onMouseEnter={handleMouseEnter}
-          >
-            <div className={`relative w-full h-full ${styles.scrollContainer}`} ref={scrollContainerRef}>
-              <img
-                src="/images/mockup/decatron360screenshot.png"
-                alt="Decatron Realtors"
-                className="w-full h-auto object-contain"
-              />
-            </div>
+        <div className="grid grid-cols-1 md:items-stretch md:grid-cols-2 gap-x-12 lg:gap-x-20 gap-y-10">
+          <div className="flex flex-col justify-between lg:py-5 animate-fadeInUp">
+            <h2 className="font-poppins text-3xl font-bold leading-tight text-white sm:text-4xl lg:leading-tight lg:text-5xl mb-2">
+              Join Our Waitlist
+            </h2>
+            <blockquote className="mt-1">
+              <p className="text-lg leading-relaxed text-white animate-fadeIn">
+                Be one of the first to experience the simplicity and efficiency
+                of Decatron. Sign up now and get notified when we launch!
+              </p>
+            </blockquote>
           </div>
 
-          {/* Content Section */}
-          <div className="w-full md:w-1/2 lg:w-3/5 mt-7">
-            <h6 className="font-poppins text-3xs font-bold leading-tight text-black sm:text-4xl lg:leading-tight lg:text-5xs ml-11">
-              Explore
-            </h6>
-            <h2 className="font-poppins text-3xl font-bold leading-tight text-black sm:text-4xl lg:leading-tight lg:text-5xl ml-11">
-              Decatron 360
-            </h2>
-            <div className="mt-0">
-              <div className="overflow-hidden bg-white rounded-md">
-                <div className="p-10">
-                  <ul className="flex flex-col mt-0 space-y-4">
-                    {[
-                      "No more lengthy chains of agents between buyers and sellers",
-                      "No more inflated prices and wasted time",
-                      "No more misleading property advertisements",
-                      "No more unqualified buyers and wasted agent time",
-                      "No more outrageous agent fees without quality service"
-                    ].map((text, index) => (
-                      <li key={index} className="inline-flex items-center space-x-2">
-                        <svg
-                          className="flex-shrink-0 w-5 h-5 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          />
-                        </svg>
-                        <span className="text-base font-medium text-gray-900">
-                          {text}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
+          <div className="animate-fadeInRight">
+            <div className="overflow-hidden bg-white rounded-md">
+              <div className="p-10">
+                <p className="mt-4 text-4xl font-bold text-black">
+                  Why Choose Us
+                </p>
 
-                  <a
-                    href="#"
-                    className="inline-flex items-center justify-center w-full px-8 py-4 mt-10 font-semibold text-white bg-primary rounded-md hover:bg-[#fb4747]"
+                <ul className="flex flex-col mt-8 space-y-4">
+                  {[
+                    "Track and manage inspections with ease",
+                    "Securely process payments and reduce no-shows",
+                    "Increase accountability, transparency, and safety",
+                    "Minimize disputes and miscommunications",
+                  ].map((item, index) => (
+                    <li
+                      key={index}
+                      className="inline-flex items-center space-x-2 animate-fadeIn"
+                      style={{ animationDelay: `${index * 0.2}s` }}
+                    >
+                      <svg
+                        className="flex-shrink-0 w-5 h-5 text-green-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span className="text-base font-medium text-gray-900">
+                        {item}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+
+                <a
+                  href="#"
+                  title=""
+                  className="inline-flex items-center justify-center w-full px-8 py-4 mt-10 font-semibold text-white bg-primary rounded-md transform transition-transform duration-300 hover:scale-105"
+                  role="button"
+                >
+                  Join Waitlist
+                </a>
+
+                {/* <div className="flex items-center mt-5 animate-fadeIn">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-gray-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
                   >
-                    Try It Out
-                  </a>
-                </div>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                    />
+                  </svg>
+                  <span className="ml-2 text-sm text-gray-500">
+                    14 Days Moneyback Guarantee
+                  </span>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+
+        @keyframes fadeInRight {
+          from {
+            opacity: 0;
+            transform: translateX(20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+
+        .animate-fadeInUp {
+          animation: fadeInUp 0.8s ease-in-out forwards;
+        }
+
+        .animate-fadeIn {
+          animation: fadeIn 1s ease-in-out forwards;
+        }
+
+        .animate-fadeInRight {
+          animation: fadeInRight 0.8s ease-in-out forwards;
+        }
+      `}</style>
     </section>
   );
 };
