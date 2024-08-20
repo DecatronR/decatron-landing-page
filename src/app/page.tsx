@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Decatron",
-  description: "A landing page for Decatron",
+  description: "The easy way to manage your real estate inspections",
 };
 
 export default function Home() {
