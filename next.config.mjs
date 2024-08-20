@@ -3,7 +3,7 @@ const nextConfig = {
     async headers() {
       return [
         {
-          source: '/favicon.svg',
+          source: '/public/images/favicons/favicon.ico',
           headers: [
             {
               key: 'Cache-Control',
