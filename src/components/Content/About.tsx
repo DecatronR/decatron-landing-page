@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export const About = () => {
     
@@ -26,10 +27,12 @@ export const About = () => {
 
           {/* About Image */}
           <div className="mt-10 lg:mt-0 lg:w-1/2">
-            <img
+            <Image
               src="/images/mockup/about.jpg"
               alt="About Our Platform"
               className="w-full rounded-lg shadow-lg"
+              width={600}
+              height={400}
             />
           </div>
         </div>

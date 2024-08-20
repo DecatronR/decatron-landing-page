@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export const HowItWork = () => {
   return (
@@ -15,9 +16,11 @@ export const HowItWork = () => {
 
         <div className="relative mt-12 lg:mt-20">
           <div className="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-20 lg:px-28">
-            <img
+            <Image
               className="w-full"
               src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/2/curved-dotted-line.svg"
+              width={100}
+              height={100}
               alt=""
             />
           </div>
