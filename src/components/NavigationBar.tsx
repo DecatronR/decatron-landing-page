@@ -15,7 +15,7 @@ export const NavigationBar = () => {
   };
 
   const handleJoinWaitlist = () => {
-    window.open('https://discord.gg/gjZhR2MQ', '_blank', 'noopener,noreferrer');
+    window.open('https://forms.gle/QwnYbGMYNkyd9iPQ9', '_blank', 'noopener,noreferrer');
   };
 
   const handleLinkClick = (event: { preventDefault: () => void; }, id: any) => {

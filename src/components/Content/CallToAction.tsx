@@ -1,5 +1,10 @@
 "use client"
 export const CallToAction = () => {
+
+  const handleJoinWaitlist = () => {
+    window.open('https://forms.gle/QwnYbGMYNkyd9iPQ9', '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <section id="cta" className="py-10 bg-primary sm:py-16 lg:py-20">
       <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
@@ -56,14 +61,13 @@ export const CallToAction = () => {
                   ))}
                 </ul>
 
-                <a
-                  href="#"
-                  title="Join Waitlist"
+                <button
+                  type="button"
                   className="inline-flex items-center justify-center w-full px-8 py-4 mt-10 font-semibold text-white bg-primary rounded-md transform transition-transform duration-300 hover:scale-105"
-                  role="button"
+                  onClick={handleJoinWaitlist}
                 >
                   Join Waitlist
-                </a>
+                </button>
               </div>
             </div>
           </div>
