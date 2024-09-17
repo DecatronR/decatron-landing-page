@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 
 export const About = () => {
-    
   return (
     <section id="about" className="py-12 bg-gray-50 sm:py-16">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -13,15 +12,16 @@ export const About = () => {
               Our Product
             </h2>
             <p className="mt-6 text-base text-gray-600 font-poppins">
-                Decatron is a revolutionary real estate inspection management and payment system
-                that transforms the way buyers, agents, and sellers interact. Our platform ensures
-                seamless inspections, secure payments, and increased accountability, making your
-                real estate experience more efficient and reliable.
+              Decatron is a real estate inspection management system that
+              transforms the way buyers, agents, and sellers interact. Our
+              platform ensures seamless inspections, secure payments, and
+              increased accountability, making your real estate experience more
+              efficient and reliable.
             </p>
             <p className="mt-4 text-base text-gray-600 font-poppins">
-                Unlike other platforms that only focus on property listings,
-                we are interested in entire inspection process,
-                ensuring that buyers are satisfied, and agents get paid for their services.
+              Unlike other platforms that only focus on property listings, we
+              are interested in entire inspection process, ensuring that buyers
+              are satisfied, and agents get paid for their services.
             </p>
           </div>
 

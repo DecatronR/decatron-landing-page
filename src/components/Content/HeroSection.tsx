@@ -6,16 +6,18 @@ export const HeroSection = () => {
           <h1 className="px-6 text-lg text-gray-600 font-poppins">
             Simplify Your Real Estate Inspections.
           </h1>
-          <h2 className="
+          <h2
+            className="
               mt-5 text-4xl font-bold leading-snug 
               text-gray-900 sm:text-5xl sm:leading-snug 
               md:text-6xl md:leading-snug 
-              lg:text-6xl lg:leading-snug font-poppins">
-            Streamline Real Estate Inspections, Reduce{" "}
+              lg:text-6xl lg:leading-snug font-poppins"
+          >
+            Connecting Real Estate{" "}
             <span className="bg-gradient-to-r from-primary via-primary-500 to-primary-600 inline-block text-transparent bg-clip-text">
-              Friction,
+              Buyers and Renters,
             </span>{" "}
-            <br /> and Increase Accountability
+            <br /> With Accountable Agents
           </h2>
 
           {/* <div className="mt-9 flex flex-col items-center justify-center space-y-5 sm:flex-row sm:space-y-0 sm:space-x-5">
